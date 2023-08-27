@@ -13,6 +13,7 @@
 		5ADF61FC2A9B93C6001612A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADF61FA2A9B93C6001612A2 /* Main.storyboard */; };
 		5ADF61FE2A9B93C7001612A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADF61FD2A9B93C7001612A2 /* Assets.xcassets */; };
 		5ADF62012A9B93C7001612A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADF61FF2A9B93C7001612A2 /* LaunchScreen.storyboard */; };
+		5ADF62092A9B93D6001612A2 /* holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF62082A9B93D6001612A2 /* holiday.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5ADF61FD2A9B93C7001612A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ADF62002A9B93C7001612A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ADF62022A9B93C7001612A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ADF62082A9B93D6001612A2 /* holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holiday.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				5ADF61F42A9B93C6001612A2 /* AppDelegate.swift */,
+				5ADF620A2A9B93E0001612A2 /* Model */,
 				5ADF61F62A9B93C6001612A2 /* SceneDelegate.swift */,
 				5ADF61F82A9B93C6001612A2 /* ViewController.swift */,
 				5ADF61FA2A9B93C6001612A2 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				5ADF62022A9B93C7001612A2 /* Info.plist */,
 			);
 			path = PublicHolidays;
+			sourceTree = "<group>";
+		};
+		5ADF620A2A9B93E0001612A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ADF62082A9B93D6001612A2 /* holiday.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ADF61F92A9B93C6001612A2 /* ViewController.swift in Sources */,
+				5ADF62092A9B93D6001612A2 /* holiday.swift in Sources */,
 				5ADF61F52A9B93C6001612A2 /* AppDelegate.swift in Sources */,
 				5ADF61F72A9B93C6001612A2 /* SceneDelegate.swift in Sources */,
 			);
